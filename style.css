@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    background: #000;
+    font-family: sans-serif;
+  }
+  
+  /* Canvas stays fixed */
+  #scroll-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  /* Controls scroll length */
+  .scroll-space {
+    height: 600vh; /* Adjust for speed */
+  }
+  
